@@ -395,6 +395,7 @@ footer li
         width: 80%;
         text-align: center;
         margin: 0 0 10% 0;
+        min-width: unset;
     }
 
     .difference-intro p{
@@ -403,6 +404,7 @@ footer li
 
     .difference-explaination{
         width: 80%;
+        min-width: unset;
         text-align: center;
     }
 
@@ -565,9 +567,7 @@ footer li
 
 @media (max-width: 450px){
 
-    header{
-        margin: 10px 5px 0 5px;
-    }
+
 
     .difference-intro{
         width: 100%;
@@ -578,9 +578,6 @@ footer li
     }
 
     .container{
-
-
-        width: 100%;
         width: 98%;
         margin: 10px 0 10px auto;
     }
@@ -649,23 +646,20 @@ footer li
     {
         min-width: 375px;
     }
-    
+
     .main-intro h1
     {
         font-size: 40px;
-        margin: 0;
     }
 
     .main-intro
     {
-        max-width:375px;
-        margin: 0;
+        width: 100%;
     }
 
     #main-logo
     {
         min-width: unset;
-        max-width:375px;
-        margin: 0;
+        width:100%;
     }
 }
