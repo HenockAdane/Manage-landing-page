@@ -471,10 +471,16 @@ footer li
         width: 15vw;
     }
 
+    .socials{
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+
     .box3{
         flex-direction: row;
         justify-content: center;
-        width: 100vw;
     }
     
     .box3 p{
@@ -627,12 +633,6 @@ footer li
         flex-direction: column-reverse;
         align-items: center;
         width: 100%;
-    }
-
-    .socials{
-        width: 98%;
-        display: flex;
-        justify-content: space-between;
     }
 
     .box2
