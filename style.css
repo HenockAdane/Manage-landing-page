@@ -54,6 +54,7 @@ nav
     width: 120px;
     cursor: pointer;
 }
+
 .started-btn:focus
 {
     outline: none;
@@ -652,5 +653,10 @@ footer li
     .main-intro h1
     {
         font-size: 40px;
+    }
+
+    .main-intro
+    {
+        width: 100%;
     }
 }
