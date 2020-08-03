@@ -659,4 +659,10 @@ footer li
     {
         width: 100%;
     }
+    
+    #main-logo
+    {
+        min-width: unset;
+        width:100%;
+    }
 }
